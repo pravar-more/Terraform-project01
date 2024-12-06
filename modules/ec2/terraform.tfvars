@@ -8,7 +8,7 @@ availability_zones = "us-east-1"
 sg_name = "Custom_sg"
 AMI_MAP = { 
         "us-west-2" = "ami-0abcdef1234567890" 
-        "us-east-1" = "ami-0123456789abcdef0" 
+        "us-east-1" = "ami-0453ec754f44f9a4a" 
         # Add other regions and their corresponding AMI IDs 
     } 
 INSTANCE_NAME = "CustomEC2_terraform"
