@@ -25,14 +25,9 @@ variable "availability_zones" {
 variable "sg_name"{
     type = string
 }
-variable "ami_map" { 
+variable "AMI_MAP" { 
     description = "Map of region to AMI ID" 
     type = map(string) 
-    default = { 
-        "us-west-2" = "ami-0abcdef1234567890" 
-        "us-east-1" = "ami-0123456789abcdef0" 
-        # Add other regions and their corresponding AMI IDs 
-    } 
 }
 variable "INSTANCE_NAME"{
     type = string

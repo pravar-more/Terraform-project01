@@ -6,7 +6,7 @@ REGION         = "us-east-1"
 availability_zones = "us-east-1"
 #vpc_name = "CustomVPC-created"
 sg_name = "Custom_sg"
-AMI_ID = { 
+AMI_MAP = { 
         "us-west-2" = "ami-0abcdef1234567890" 
         "us-east-1" = "ami-0123456789abcdef0" 
         # Add other regions and their corresponding AMI IDs 
