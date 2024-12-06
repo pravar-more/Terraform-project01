@@ -30,7 +30,7 @@ resource "aws_security_group" "main" {
 
 
 resource "aws_instance"  "main" {
-    ami = var.AMI_ID
+    ami = lookup(var.ami_map, var.region, "ami-0453ec754f44f9a4a")
     instance_type = var.INSTANCE_TYPE 
     key_name = var.KEY_NAME 
     security_groups = aws_security_group.main.name
