@@ -16,7 +16,7 @@ JENKINS_MACHINE_IP = ""
 sudo yum install git -y
 
 #clone repo
-#git clone https://github.com/pravar-more/AWSCICD-Terraform.git
+git clone https://github.com/pravar-more/AWSCICD-Terraform.git
 
 #git remote
 git remote add origin https://github.com/pravar-more/AWSCICD-Terraform.git
